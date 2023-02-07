@@ -1,0 +1,18 @@
+.logo {
+	&__footer {
+		color: #FF7C4E;
+	}
+}
+
+
+.nav {
+	&__list--footer a:hover::after,
+	&__list--footer .active:after{
+		display: none;
+	}
+
+	&__list--footer a:hover,
+	&__list--footer .active{
+		color: #FF7C4E;
+	}
+}
